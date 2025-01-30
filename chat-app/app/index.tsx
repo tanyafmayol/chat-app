@@ -1,5 +1,6 @@
 import { Text, View } from "react-native";
 import  LoginScreen from "./screens/LoginScreen/LoginScreen"
+import SignupScreen from "./screens/SignupScreen/SignupScreen";
 
 export default function Index() {
   return (
@@ -10,7 +11,7 @@ export default function Index() {
         alignItems: "center",
       }}
     >
-      <LoginScreen></LoginScreen>
+      <SignupScreen></SignupScreen>
     </View>
   );
 }
